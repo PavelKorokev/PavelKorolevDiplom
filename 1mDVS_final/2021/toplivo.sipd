@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ECUModel ECUName="toplivo" ModelName="toplivo" PortNumber="4599" type="Simulink" version="1.1">
+   <Calibrations>
+      <Calibration name="C" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Rail/C" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="Constant" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/HPP_Inj_Valve/Constant" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="Constant1" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Constant1" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="Constant1_1" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/HPP_Inj_Valve/Constant1" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="Constant2" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Constant2" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="Constant3" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Constant3" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="Constant4" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Constant4" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="D_coef" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/D_coef" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="I_coef" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/I_coef" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="K" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Rail/K" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="K1Filter__" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/K1Filter  " accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="P_Set_" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/P_Set " accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="P_coef" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/P_coef" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="RealTimeBlock.mode" sharedResourceName="toplivo/ETAS SIP/RealTimeBlock:MASK_NAME:mode">
+         <Asap2Info conversionMethodName="CONVERSION_table_2" dataType="SLONG" description="" max="2147483647" min="-2147483648"/>
+         <AccessInfo accessParameter1="toplivo/ETAS SIP/RealTimeBlock" accessParameter2="mode"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="RealTimeBlock.realTimeMultiplier" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/ETAS SIP/RealTimeBlock" accessParameter2="realTimeMultiplier"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="TsID" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/TsID" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="m" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Rail/m" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="q_Vlv_set" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/HPP_Inj_Valve/q_Vlv_set" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+      <Calibration name="q_inj_set" sharedResourceName="">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/HPP_Inj_Valve/q_inj_set" accessParameter2="Value"/>
+         <AxesRefs/>
+      </Calibration>
+   </Calibrations>
+   <Axes/>
+   <Measurements>
+      <Measurement dimensions="" format="13.3%" name="D_Out">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT32_IEEE" description="" max="3.402823466385289e+38" min="-3.402823466385289e+38"/>
+         <AccessInfo accessParameter1="toplivo/S-Function1" accessParameter2="3"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="Error">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Subtract" accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="I_Out">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT32_IEEE" description="" max="3.402823466385289e+38" min="-3.402823466385289e+38"/>
+         <AccessInfo accessParameter1="toplivo/S-Function1" accessParameter2="2"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="PIDOUT">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT32_IEEE" description="" max="3.402823466385289e+38" min="-3.402823466385289e+38"/>
+         <AccessInfo accessParameter1="toplivo/Saturation" accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="P_Out">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT32_IEEE" description="" max="3.402823466385289e+38" min="-3.402823466385289e+38"/>
+         <AccessInfo accessParameter1="toplivo/S-Function1" accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="Rail_press">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Rail" accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="p_set">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/P_Set " accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="p_set_saturation">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Saturation1" accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="q_inj_out">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/HPP_Inj_Valve/Divide3" accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="q_pump_out">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/HPP_Inj_Valve/Divide1" accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="q_sum_out">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/HPP_Inj_Valve/Saturation" accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="q_sum_out_1">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/HPP_Inj_Valve/Saturation1" accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="q_valve_out">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/HPP_Inj_Valve/Divide4" accessParameter2="1"/>
+      </Measurement>
+      <Measurement dimensions="" format="13.3%" name="valve_open_fl">
+         <Asap2Info conversionMethodName="CONVERSION_table_1" dataType="FLOAT64_IEEE" description="" max="1.797693134862316e+308" min="-1.797693134862316e+308"/>
+         <AccessInfo accessParameter1="toplivo/Switch1" accessParameter2="1"/>
+      </Measurement>
+   </Measurements>
+   <Events>
+      <Event description="All_Samples" name="All_Samples" sampleTime="0"/>
+   </Events>
+   <ConversionMethods>
+      <Identical format="%10.5" longIdentifier="" name="CONVERSION_table_1" unit=""/>
+      <TableConversion enumTable="COMPU_VTAB_table_2" format="%7.5" longIdentifier="Conversion method for class mode" name="CONVERSION_table_2"/>
+   </ConversionMethods>
+   <EnumTables>
+      <EnumTable longIdentifier="" name="COMPU_VTAB_table_2">
+         <ValuePair in="0" out="Real Time"/>
+         <ValuePair in="1" out="Fast Emulation"/>
+      </EnumTable>
+   </EnumTables>
+   <Groups>
+      <Group name="toplivo">
+         <MeasurementRef name="D_Out"/>
+         <MeasurementRef name="Error"/>
+         <MeasurementRef name="I_Out"/>
+         <MeasurementRef name="PIDOUT"/>
+         <MeasurementRef name="P_Out"/>
+         <MeasurementRef name="Rail_press"/>
+         <MeasurementRef name="p_set"/>
+         <MeasurementRef name="p_set_saturation"/>
+         <MeasurementRef name="valve_open_fl"/>
+         <CalibrationRef name="Constant1"/>
+         <CalibrationRef name="Constant2"/>
+         <CalibrationRef name="Constant3"/>
+         <CalibrationRef name="Constant4"/>
+         <CalibrationRef name="D_coef"/>
+         <CalibrationRef name="I_coef"/>
+         <CalibrationRef name="K1Filter__"/>
+         <CalibrationRef name="P_Set_"/>
+         <CalibrationRef name="P_coef"/>
+         <CalibrationRef name="TsID"/>
+         <Group name="Rail">
+            <MeasurementRef name="Rail_press"/>
+            <CalibrationRef name="C"/>
+            <CalibrationRef name="K"/>
+            <CalibrationRef name="m"/>
+         </Group>
+         <Group name="HPP_Inj_Valve">
+            <MeasurementRef name="q_inj_out"/>
+            <MeasurementRef name="q_pump_out"/>
+            <MeasurementRef name="q_sum_out"/>
+            <MeasurementRef name="q_sum_out_1"/>
+            <MeasurementRef name="q_valve_out"/>
+            <CalibrationRef name="Constant"/>
+            <CalibrationRef name="Constant1_1"/>
+            <CalibrationRef name="q_Vlv_set"/>
+            <CalibrationRef name="q_inj_set"/>
+         </Group>
+         <Group name="ETAS_SIP">
+            <CalibrationRef name="RealTimeBlock.mode"/>
+            <CalibrationRef name="RealTimeBlock.realTimeMultiplier"/>
+         </Group>
+      </Group>
+   </Groups>
+</ECUModel>

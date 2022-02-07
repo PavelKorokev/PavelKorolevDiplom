@@ -1,0 +1,22 @@
+<?SCHEMA schemaVersion="1.0"?>
+<Workspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Program%20Files%20(x86)/Common%20Files/ETAS/Experiment%20Environment/3.7/Schemas/EE.Data.Workspace.xsd" xsi:type="ETAS.EE.Data.WorkspaceType">
+  <PluginData xsi:type="ETAS.EE.Data.PluginDataListType">
+    <Item xsi:type="ETAS.EE.Data.PluginDataType" id="ID13515d2c-8a0a-4727-a249-76d1f93b9429" pluginID="Options" rootFolder="Options_Files">
+      <Documents xsi:type="ETAS.EE.Data.ExternalDocumentListType">
+        <Item xsi:type="ETAS.EE.Data.ExternalDocumentType" id="ID346dd7f1-b5d7-4ba8-b203-c3bf05b0a936" type="" name="Options" file="Options.opt" />
+      </Documents>
+    </Item>
+    <Item xsi:type="ETAS.EE.Data.PluginDataType" id="IDbd1225d2-0a7f-4c9e-be55-6abf2639d5ed" pluginID="SignalSourceManager" rootFolder="SignalSourceManager_Files">
+      <Documents xsi:type="ETAS.EE.Data.ExternalDocumentListType">
+        <Item xsi:type="ETAS.EE.Data.ExternalDocumentType" id="IDc82b16cf-5144-4331-a049-926f84a2d3d2" type="" name="SignalSourcesData" file="SignalSources.xml" />
+      </Documents>
+    </Item>
+  </PluginData>
+  <RecentExperiments xsi:type="ETAS.EE.Data.FileReferenceListType">
+    <Item xsi:type="ETAS.EE.Data.FileReferenceType" id="IDe97793f5-e940-4c15-b488-14bcdb139166" path="C:\Users\MacPC\ETAS\ASCET-DEVELOPER-7.6.0\workspace\PID_Regulator\experiments\Experiments\system\PIDTest_PC\PIDTest_PC.eex" hintPath="..\..\Experiments\system\PIDTest_PC\PIDTest_PC.eex" />
+  </RecentExperiments>
+  <WorkspaceInfo xsi:type="ETAS.EE.Data.WorkspaceInfoType">
+    <DateTime xsi:type="ETAS.EE.Data.DateTimeInfoType" id="ID4d8766b5-2f1b-415f-bd22-4a982c22e1f5" Created="2021-11-18T22:59:00.099Z" LastOpened="2021-11-18T23:05:56.769Z" LastSaved="2021-11-18T23:08:42.584Z" />
+    <Version xsi:type="ETAS.EE.Data.VersionInfoType" id="ID368ec7cd-4ffd-46f4-878a-4746d24e5639" Created="3.7.10.314" LastSaved="3.7.10.314" MinRequired="3.3.1" />
+  </WorkspaceInfo>
+</Workspace>

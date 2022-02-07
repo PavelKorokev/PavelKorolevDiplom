@@ -1,0 +1,10 @@
+package components;
+
+class Component {
+	PID PID_instance_7;
+	RunningAverage RunningAverage_instance;
+
+	@generated("blockdiagram", "c0115d4e")
+	public void calc() {
+	}
+}

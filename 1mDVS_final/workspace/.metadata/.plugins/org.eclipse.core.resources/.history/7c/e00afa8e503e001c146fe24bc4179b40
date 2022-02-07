@@ -1,0 +1,25 @@
+package PID_Regulator;
+import delay.delay;
+
+class Component {
+	real pPressureSet;
+	real pPressure;
+	real pPressureError;
+	real qCoeff_P;
+	real cPID_P_Max;
+	real cPID_P_Min;
+	real q;
+	real cPID_I_Max;
+	real cPID_I_Min;
+	real qCoeff_I;
+	real pMemory_I;
+	real pPressure_Err_Prev;
+	delay delay_instance;
+
+	@generated("blockdiagram", "e70b74f6")
+	public void PID() {
+		pPressureError = (pPressureSet - pPressure); // Main/PID 1
+		pMemory_I = max(cPID_I_Max, min((pPressureError + pMemory_I), cPID_I_Min)); // Main/PID 2
+		pPressure_Err_Prev = delay_instance.I_Part(pPressureError); // Main/PID 3
+	}
+}

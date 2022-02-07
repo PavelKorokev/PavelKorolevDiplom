@@ -1,0 +1,298 @@
+classType PID_Regulator.Component
+blockdiagramSpecification Main {
+	methodBody PID {
+		outPin active {
+			connection_69, connection_76
+		, connection_80, connection_66
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	subtraction at (191, 96) size (2, 8) {
+		inPin connection_89 
+		inPin connection_90
+		outPin {
+			connection_77
+		}
+	}
+	
+	multiplication at (541, 56) {
+		inPin connection_86
+		inPin connection_78 {
+			bendpoints (60, 0), (60, -50)
+		}
+		outPin {
+			connection_8
+		}
+	}
+	minimum at (641, 66) size (2, 3) {
+		inPin connection_8
+		inPin connection_87 {
+			bendpoints (180, 0), (180, 60)
+		}
+		outPin {
+			connection_7
+		}
+	}
+	maximum at (691, 66) {
+		inPin connection_88 {
+			bendpoints (230, 0), (230, 70)
+		}
+		inPin connection_7 {
+			bendpoints (10, 0)
+		}
+		outPin {
+			connection_30
+		}
+	}
+	
+	
+	maximum at (691, 246) {
+		inPin connection_83 {
+			bendpoints (230, 0), (230, 110)
+		}
+		inPin connection_16 {
+			bendpoints (10, 0)
+		}
+		outPin {
+			connection_70
+		}
+	}
+	minimum at (641, 246) size (2, 3) {
+		inPin connection_24
+		inPin connection_84 {
+			bendpoints (180, 0), (180, 100)
+		}
+		outPin {
+			connection_16
+		}
+	}
+	
+	
+	
+	addition at (541, 236) {
+		inPin connection_79 {
+			bendpoints (60, 0), (60, 110)
+		}
+		inPin connection_71 {
+			bendpoints (10, 0), (10, 30), (-260, 30), (-260, 0)
+		}
+		outPin {
+			connection_24
+		}
+	}
+	multiplication at (811, 236) {
+		inPin connection_85 {
+			bendpoints (350, 0), (350, 40)
+		}
+		inPin connection_68
+		outPin {
+			connection_31
+		}
+	}
+	
+	addition at (911, 76) size (2, 35) {
+		inPin connection_30
+		inPin connection_31 {
+			bendpoints (60, 0)
+		}
+		inPin connection_64 outPin
+	{
+			connection_67
+		}
+	}
+	complexIdentifier DelayValue_instance at (431, 411) size (3, 3) backgroundColor #ffffff {
+		label at (-70, 1)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_81 {
+				bendpoints (60, 0), (60, 300)
+			}
+			sequenceCall at (-70, -30) {
+				inPin 
+			connection_80
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_39
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	subtraction at (511, 426) size (2, 4) {
+		inPin connection_39
+		inPin connection_82 {
+			bendpoints (60, 0), (60, 330)
+		}
+		outPin {
+			connection_47
+		}
+	}
+	multiplication at   (571, 376)  size (2, 7) {
+		inPin connection_73
+		inPin connection_47 {
+			bendpoints (20, 0)
+		}
+		outPin {
+			connection_44
+		}
+	}
+	
+	minimum at (641, 406) size (2, 3) {
+		inPin connection_44 {
+			bendpoints (0, 10)
+		}
+		inPin connection_72 {
+			bendpoints (180, 0), (180, 80)
+		}
+		outPin {
+			connection_58
+		}
+	}
+	maximum at (691, 406) {
+		inPin connection_63 {
+			bendpoints (230, 0), (230, 90)
+		}
+		inPin connection_58 {
+			bendpoints (10, 0)
+		}
+		outPin {
+			connection_64
+		}
+	}
+	simpleIdentifier PID.pMemory_I at (741, 255) {
+		label at (0, -1)
+		inPin connection_70
+		outPin {
+			connection_71, connection_68
+		}
+		sequenceCall {
+			inPin connection_69
+		}
+	}
+	methodArgumentIdentifier PID.cPID_D_Max at (411, 315) {
+		label at (0, -1)
+		outPin {
+			connection_63
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	return at (961, 245) {
+		label at (0, 0)
+		inPin connection_67
+		sequenceCall {
+			inPin connection_66
+		}
+	}
+	methodArgumentIdentifier PID.cPID_D_Min at (411, 345) {
+		label at (0, -1)
+		outPin {
+			connection_72
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier PID.qCoeff_D at (411, 375) {
+		label at (0, -1)
+		outPin {
+			connection_73
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier PID.pPressureError at (261, 125) {
+		label at (0, -1)
+		inPin connection_77
+		outPin {
+			connection_79, connection_81, connection_82, connection_78
+		}
+		sequenceCall {
+			inPin connection_76
+		}
+	}
+	methodArgumentIdentifier PID.cPID_I_Max at (411, 135) {
+		label at (0, -1)
+		outPin {
+			connection_83
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier PID.cPID_I_Min at (411, 165) {
+		label at (0, -1)
+		outPin {
+			connection_84
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier PID.qCoeff_P at (411, 55) {
+		label at (0, -1)
+		outPin {
+			connection_86
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier PID.qCoeff_I at (411, 195) {
+		label at (0, -1)
+		outPin {
+			connection_85
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier PID.cPID_P_Max at (411, -5) {
+		label at (0, -1)
+		outPin {
+			connection_88
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier PID.cPID_P_Min at (411, 25) {
+		label at (0, -1)
+		outPin {
+			connection_87
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+
+methodArgumentIdentifier   PID.InpPressure at (101, 165) {
+		label at (0, -1)
+		outPin {
+			connection_90
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	
+	methodArgumentIdentifier   PID.SetPressure at (101, 95) {
+		label at (0, -1)
+		outPin {
+			connection_89
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+}

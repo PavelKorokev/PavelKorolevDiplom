@@ -1,0 +1,301 @@
+classType components.RunningAverage
+blockdiagramSpecification Main {
+	methodBody mean {
+		outPin active {
+			connection_2, connection_125, connection_128, connection_131, connection_134, connection_139, connection_142, connection_144, connection_147, connection_20
+		}
+	}
+	methodArgumentIdentifier mean.Inp at (121, 105) {
+		label at (0, -1)
+		outPin {
+			connection_119, connection_3
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	complexIdentifier DelayValue_instance at (241, 91) size (3, 3) backgroundColor #ffffff {
+		label at (-70, 11)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_3
+			sequenceCall at (-70, -30) {
+				inPin connection_2
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_145, connection_118
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	addition at (281, 166) {
+		inPin connection_118
+		inPin connection_119 {
+			bendpoints (30, 0), (30, 80)
+		}
+		outPin {
+			connection_18
+		}
+	}
+	addition at   (411, 146)  size (2, 5) {
+		inPin connection_141 {
+			bendpoints 
+		(40, 0)
+		}
+		inPin connection_18 {
+			bendpoints 
+		(0, 10)
+		}
+		outPin {
+			connection_64
+		}
+	}
+	return at (1301, 175) {
+		label at (0, 0)
+		inPin connection_121 {
+			bendpoints (30, 0)
+		}
+		sequenceCall {
+			inPin connection_20
+		}
+	}
+	addition at (541, 166) {
+		inPin connection_136 {
+			bendpoints (40, 0)
+		}
+		inPin connection_64 {
+			bendpoints 
+		(0, 20)
+		}
+		outPin {
+			connection_54
+		}
+	}
+	addition at (651, 156) {
+		inPin connection_146 {
+			bendpoints (20, 0)
+		}
+		inPin connection_54
+		outPin {
+			connection_90
+		}
+	}
+	addition at (1061, 166) {
+		inPin connection_124 {
+			bendpoints (40, 0)
+		}
+		inPin connection_68 {
+			bendpoints (70, 0)
+		}
+		outPin {
+			connection_102
+		}
+	}
+	addition at (951, 166) {
+		inPin connection_127 {
+			bendpoints (20, 0)
+		}
+		inPin connection_76 {
+			bendpoints (0, 10)
+		}
+		outPin {
+			connection_68
+		}
+	}
+	addition at (851, 166) {
+		inPin connection_130 {
+			bendpoints (20, 0)
+		}
+		inPin connection_78 {
+			bendpoints (0, 10)
+		}
+		outPin {
+			connection_76
+		}
+	}
+	addition at (751, 166) {
+		inPin connection_133 {
+			bendpoints (20, 0)
+		}
+		inPin connection_90 {
+			bendpoints (60, 0)
+		}
+		outPin {
+			connection_78
+		}
+	}
+	addition at  (1171, 146) {
+		inPin connection_123 {
+			bendpoints 
+		(0, 30)
+		}
+		inPin connection_102 {
+			bendpoints 
+		(70, 0)
+		}
+		outPin {
+			connection_120
+		}
+	}
+	division at (1231, 176) {
+		inPin connection_120 {
+			bendpoints (0, 20)
+		}
+		inPin connection_122 {
+			bendpoints (20, 0)
+		}
+		outPin {
+			connection_121
+		}
+	}
+	simpleIdentifier c1 at (1171, 205) {
+		label at (0, -1)
+		outPin {
+			connection_122
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	complexIdentifier DelayValue_instance_2 at (331, 91) size (3, 3) backgroundColor #ffffff {
+		label at (0, 1)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_145
+			sequenceCall at (-70, -30) {
+				inPin connection_144
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_143, connection_141
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier DelayValue_instance_3 at (461, 91) size (3, 3) backgroundColor #ffffff {
+		label at (0, 1)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_143
+			sequenceCall at (-70, -30) {
+				inPin connection_142
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_140, connection_136
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier DelayValue_instance_4 at (591, 91) size (3, 3) backgroundColor #ffffff {
+		label at (0, 1)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_140
+			sequenceCall at (-70, -30) {
+				inPin connection_139
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_148, connection_146
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier DelayValue_instance_5 at (691, 101) size (3, 3) backgroundColor #ffffff {
+		label at (0, 1)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_148 {
+				bendpoints (20, 0), (20, 10)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_147
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_135, connection_133
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier DelayValue_instance_6 at (791, 101) size (3, 3) backgroundColor #ffffff {
+		label at (0, 1)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_135
+			sequenceCall at (-70, -30) {
+				inPin connection_134
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_132, connection_130
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier DelayValue_instance_7 at (891, 101) size (3, 3) backgroundColor #ffffff {
+		label at (0, 1)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_132
+			sequenceCall at (-70, -30) {
+				inPin connection_131
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_129, connection_127
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier DelayValue_instance_8 at (981, 101) size (3, 3) backgroundColor #ffffff {
+		label at (0, 1)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_129
+			sequenceCall at (-70, -30) {
+				inPin connection_128
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_126, connection_124
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+	complexIdentifier DelayValue_instance_9 at (1111, 101) size (3, 3) backgroundColor #ffffff {
+		label at (0, 1)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_126
+			sequenceCall at (-70, -30) {
+				inPin connection_125
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_123
+			}
+			sequenceCall {
+				inPin
+			}
+		}
+	}
+}

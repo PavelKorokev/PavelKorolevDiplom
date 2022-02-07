@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+environment/workspace/MINGW_HOME/delimiter=;
+environment/workspace/MINGW_HOME/operation=append
+environment/workspace/MINGW_HOME/value=${mingw_gcc_home}

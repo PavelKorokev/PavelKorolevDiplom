@@ -1,0 +1,65 @@
+classType components.Component
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active
+	{
+			connection_1
+		}
+	}
+methodArgumentIdentifier calc.arg at (121, 75) {
+		label at (0, -1)
+		outPin {
+			connection_3
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier calc.arg_2 at (121, 105) {
+		label at (0, -1)
+		outPin {
+			connection_2
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	return at (431, 95) {
+		label at (0, 0)
+		inPin connection_6 {
+			bendpoints (80, 0)
+		}
+		sequenceCall {
+			inPin connection_1
+		}
+	}
+	methodArgumentIdentifier calc.Rest at (121, 35) {
+		label at (0, -1)
+		outPin {
+			connection_5
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	addition at (211, 86) {
+		inPin connection_3 {
+			bendpoints (0, 10)
+		}
+		inPin connection_2
+		outPin {
+			connection_4
+		}
+	}
+	minimum at (311, 66) {
+		inPin connection_5 {
+			bendpoints (0, 30)
+		}
+		inPin connection_4 {
+			bendpoints (60, 0)
+		}
+		outPin {
+			connection_6
+		}
+	}
+}

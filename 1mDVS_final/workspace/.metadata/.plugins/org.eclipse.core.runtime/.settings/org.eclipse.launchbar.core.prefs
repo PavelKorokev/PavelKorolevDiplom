@@ -1,0 +1,10 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:AdditionTest_PC,org.eclipse.launchbar.core.descriptorType.default\:IntegratorTest_PC,org.eclipse.launchbar.core.descriptorType.default\:SimpleExampleTest_PC,org.eclipse.launchbar.core.descriptorType.default\:Controller_PC,org.eclipse.launchbar.core.descriptorType.default\:ComponentTest_PC,org.eclipse.launchbar.core.descriptorType.default\:ComponentTest_PC (1),org.eclipse.launchbar.core.descriptorType.default\:PC_PC,org.eclipse.launchbar.core.descriptorType.default\:ComponentTest_PC (2),org.eclipse.launchbar.core.descriptorType.default\:ComponentTest_PC (3),org.eclipse.launchbar.core.descriptorType.default\:PIDTest_PC,org.eclipse.launchbar.core.descriptorType.default\:RunningAverageTest_PC,org.eclipse.launchbar.core.descriptorType.default\:FilterTest_PC,org.eclipse.launchbar.core.descriptorType.default\:FilterByTest_PC,org.eclipse.launchbar.core.descriptorType.default\:ComponentTest_PC (4),org.eclipse.launchbar.core.descriptorType.default\:PIDTest_PC (1),org.eclipse.launchbar.core.descriptorType.default\:ComponentTest_PC (5),org.eclipse.launchbar.core.descriptorType.default\:ComponentTest_SFunction,org.eclipse.launchbar.core.descriptorType.default\:Component_SFunction
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:AdditionTest_PC/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:AdditionTest_PC/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:ComponentTest_PC/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Controller_PC/activeLaunchMode=coverage
+org.eclipse.launchbar.core.descriptorType.default\:PIDTest_PC/activeLaunchMode=run

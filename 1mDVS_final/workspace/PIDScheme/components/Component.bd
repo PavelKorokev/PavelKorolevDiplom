@@ -1,0 +1,6 @@
+classType components.Component
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active
+	}
+}

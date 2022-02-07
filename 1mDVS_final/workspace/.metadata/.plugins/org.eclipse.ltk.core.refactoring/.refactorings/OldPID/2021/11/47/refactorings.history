@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;PID.bd, PID.esdl&apos; to &apos;components&apos;" description="Move 2 resources to &apos;components&apos;" destination="components" element1="/PID/PID_Regulator/PID.bd" element2="/PID/PID_Regulator/PID.esdl" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="2" stamp="1637268571324" updateReferences="true"/>
+</session>

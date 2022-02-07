@@ -1,0 +1,32 @@
+package PID_Regulator;
+import delay.delay;
+import SystemLib.Delay.DelayValueEnabled;
+import SystemLib.Delay.DelayValue;
+
+class Component {
+	real pPressureSet;
+	real pPressure;
+	real pPressureError;
+	real qCoeff_P;
+	real cPID_P_Max;
+	real cPID_P_Min;
+	real q;
+	real cPID_I_Max;
+	real cPID_I_Min;
+	real qCoeff_I;
+	real pMemory_I;
+	real pPressure_Err_Prev;
+	delay delay_instance;
+	DelayValueEnabled DelayValueEnabled_instance;
+	DelayValue DelayValue_instance;
+	real qCoeff_D;
+	real cPID_D_Max;
+	real cPID_D_Min;
+
+	@generated("blockdiagram", "0ccc726d")
+	public void PID() {
+		pPressureError = (pPressureSet - pPressure); // Main/PID 1
+		pMemory_I = max(cPID_I_Max, min((pPressureError + pMemory_I), cPID_I_Min)); // Main/PID 2
+		DelayValue_instance.compute(pPressureError); // Main/PID 3
+	}
+}

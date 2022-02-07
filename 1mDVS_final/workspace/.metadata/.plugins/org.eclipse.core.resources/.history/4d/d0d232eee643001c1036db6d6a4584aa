@@ -1,0 +1,10 @@
+package components;
+
+static class ComponentTest {
+	Component tester;
+
+	@thread
+	public void calc() {
+		tester.calc();
+	}
+}

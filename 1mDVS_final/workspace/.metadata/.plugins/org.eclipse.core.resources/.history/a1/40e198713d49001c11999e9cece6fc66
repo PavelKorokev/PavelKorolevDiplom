@@ -1,0 +1,6 @@
+classType components.Restriction
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active
+	}
+}

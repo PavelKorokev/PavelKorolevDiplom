@@ -1,0 +1,11 @@
+package components;
+import PID_Regulator.Component;
+
+static class ComponentTest {
+	Component tester;
+
+	@thread
+	public void calc() {
+		tester.calc();
+	}
+}

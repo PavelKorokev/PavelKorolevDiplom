@@ -1,0 +1,14 @@
+components_Component_PID_instance_cP_Max = single(100.0);
+components_Component_PID_instance_cP_Min = single(-100.0);
+components_Component_PID_instance_cI_Max = single(100.0);
+components_Component_PID_instance_cD_Max = single(100.0);
+components_Component_PID_instance_cD_Min = single(-100.0);
+components_Component_PID_instance_cI_Min = single(-100.0);
+components_Component_RunningAverage_instance_c1 = single(10.0);
+components_Component_FilterBy_instance_K2 = single(1.0);
+components_Component_PID_instance_3_cP_Max = single(100.0);
+components_Component_PID_instance_3_cP_Min = single(-100.0);
+components_Component_PID_instance_3_cI_Max = single(100.0);
+components_Component_PID_instance_3_cD_Max = single(100.0);
+components_Component_PID_instance_3_cD_Min = single(-100.0);
+components_Component_PID_instance_3_cI_Min = single(-100.0);

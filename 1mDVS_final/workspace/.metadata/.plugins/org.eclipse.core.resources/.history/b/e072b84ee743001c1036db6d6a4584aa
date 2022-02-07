@@ -1,0 +1,11 @@
+package components;
+import PID_Regulator.Component;
+
+class Component {
+	Component Component_instance;
+	real v;
+
+	@generated("blockdiagram", "d0008cf6")
+	public void calc() {
+	}
+}

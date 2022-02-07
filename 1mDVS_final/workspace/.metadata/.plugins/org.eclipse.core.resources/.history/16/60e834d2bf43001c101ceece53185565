@@ -1,0 +1,52 @@
+package PID_Regulator;
+import delay.delay;
+import SystemLib.Delay.DelayValueEnabled;
+import SystemLib.Delay.DelayValue;
+
+class Component {
+	real pPressure;
+	real pPressureError;
+	real qCoeff_P;
+	real cPID_P_Max;
+	real cPID_P_Min;
+	real q;
+	real cPID_I_Max;
+	real cPID_I_Min;
+	real qCoeff_I;
+	real pMemory_I;
+	real pPressure_Err_Prev;
+	delay delay_instance;
+	DelayValueEnabled DelayValueEnabled_instance;
+	DelayValue DelayValue_instance;
+	real qCoeff_D;
+	real cPID_D_Max;
+	real cPID_D_Min;
+
+	@generated("blockdiagram", "07681814")
+	@error("blockdiagram")
+	public void InputPressure(real in pPressureSet) {
+		pMemory_I = max(cPID_I_Max, min((pPressureError + pMemory_I), cPID_I_Min)); // Main/InputPressure 2
+		DelayValue_instance.compute(pPressureError); // Main/InputPressure 3
+	}
+
+	@generated("blockdiagram", "b1dc4961")
+	@error("blockdiagram")
+	public real Out() {
+		return(max(cPID_P_Max, min((qCoeff_P * pPressureError), cPID_P_Min)) + (qCoeff_I * pMemory_I) + max(cPID_D_Max, min((qCoeff_D * (DelayValue_instance.value() - pPressureError)), cPID_D_Min))); // Main/Out 1
+	}
+
+	@generated("blockdiagram", "aa2a67a9")
+	@error("blockdiagram")
+	public void Input_D() {
+	}
+
+	@generated("blockdiagram", "db924703")
+	@error("blockdiagram")
+	public void Input_I() {
+	}
+
+	@generated("blockdiagram", "44d8653c")
+	@error("blockdiagram")
+	public void Input_A() {
+	}
+}

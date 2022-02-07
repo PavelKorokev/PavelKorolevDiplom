@@ -1,0 +1,16 @@
+classType components.Component
+blockdiagramSpecification Main {
+	methodBody calc {
+		outPin active
+	}
+
+complexIdentifier    PID_instance_4 at (171, 151) size (14, 8) {
+		label at (0, 1)
+		methodCall components.PID.Calculation {
+			argumentPin InpPressure at (left, 0) argumentPin PressureSet at (left, 1) argumentPin qP at (left, 2) argumentPin qI at (left, 3)
+					argumentPin qD at (left, 4) returnPin at (right, 0) sequenceCall {
+				inPin
+			}
+		}
+	}
+}
