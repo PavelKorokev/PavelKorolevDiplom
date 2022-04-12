@@ -19,7 +19,7 @@
 <booleanAttribute key="com.etas.ascet.build.output.project.cdt" value="true"/>
 <stringAttribute key="com.etas.ascet.build.output.project.name" value="${project_name}_CGen"/>
 <booleanAttribute key="com.etas.ascet.build.physicalImplementation" value="false"/>
-<booleanAttribute key="com.etas.ascet.build.simulation.enable.calibration" value="true"/>
+<booleanAttribute key="com.etas.ascet.build.simulation.enable.calibration" value="false"/>
 <booleanAttribute key="com.etas.ascet.build.simulation.enable.measurements" value="false"/>
 <stringAttribute key="com.etas.ascet.build.target.integerDivisionRounding" value="truncate"/>
 <stringAttribute key="com.etas.ascet.build.target.wordSize" value="32"/>
