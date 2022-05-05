@@ -1,0 +1,393 @@
+classType PID.PID
+blockdiagramSpecification Main {
+	methodBody Regulator {
+		outPin {
+			connection_54, connection_57, connection_60, connection_63, connection_70, connection_120, connection_1
+		}
+	}
+	methodBody p_method {
+		outPin active {
+			connection_133
+		}
+	}
+	subtraction at (131, 96) {
+		inPin connection_62
+		inPin connection_20 {
+			bendpoints 
+		(0, -30), (70, -30)
+		}
+		outPin {
+			connection_64
+		}
+	}
+	multiplication at (371, 116) {
+		inPin connection_27 inPin connection_65
+		outPin {
+			connection_72
+		}
+	}
+	minimum at (511, 116) {
+		inPin connection_74 inPin connection_40 {
+			bendpoints (170, 0), (170, 110)
+		}
+		outPin {
+			connection_58
+		}
+	}
+	maximum at  (451, 106) {
+		inPin connection_73 {
+			bendpoints (80, 0), 
+		(80, 40)
+		}
+		inPin connection_72 outPin {
+			connection_74
+		}
+	}
+	addition at (751, 246) {
+		inPin connection_59 {
+			bendpoints (0, 120)
+		}
+		inPin connection_111 {
+			bendpoints (0, -30)
+		}
+		inPin connection_131 {
+			bendpoints (70, 0), (70, -160)
+		}
+		outPin {
+			connection_127
+		}
+	}
+	addition at (451, 276) {
+		inPin connection_82
+		inPin connection_122 {
+			bendpoints (0, 30), (-220, 30)
+		}
+		outPin {
+			connection_117
+		}
+	}
+	minimum at (561, 276) {
+		inPin connection_105
+		inPin connection_104 {
+			bendpoints (200, 0), (200, 120)
+		}
+		outPin {
+			connection_121
+		}
+	}
+	multiplication at (331, 276) {
+		inPin connection_123 {
+			bendpoints (10, 0)
+		}
+		inPin connection_78 {
+			bendpoints (20, 0), (20, 160)
+		}
+		outPin {
+			connection_80
+		}
+	}
+	subtraction at (351, 456) {
+		inPin connection_35
+		inPin connection_69 {
+			bendpoints (20, 0), (20, 340)
+		}
+		outPin {
+			connection_132
+		}
+	}
+	multiplication at (461, 446) {
+		inPin connection_29 {
+			bendpoints (110, 0), (110, 40)
+		}
+		inPin connection_102 {
+			bendpoints (20, 0)
+		}
+		outPin {
+			connection_93
+		}
+	}
+	maximum at (511, 436) {
+		inPin connection_94 {
+			bendpoints (160, 0)
+		}
+		inPin connection_93
+		outPin {
+			connection_95
+		}
+	}
+	minimum at (561, 436) {
+		inPin connection_95 {
+			bendpoints (10, 0)
+		}
+		inPin connection_96 {
+			bendpoints (200, 0), (200, 120)
+		}
+		outPin {
+			connection_55
+		}
+	}
+	methodArgumentIdentifier Regulator.PressureSet at  (21, 95) {
+		label at (0, -1)
+		outPin {
+			connection_61
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier Regulator.InpPressure at  (21, 175) {
+		label at (0, -1)
+		outPin {
+			connection_20
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier Regulator.qP at  (291, 115) {
+		label at (0, -1)
+		outPin {
+			connection_27
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier Regulator.qI at (281, 245) {
+		label at (0, -1)
+		outPin {
+			connection_123
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	methodArgumentIdentifier Regulator.qD at (301, 405) {
+		label at (0, -1)
+		outPin {
+			connection_29
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	return at  (1011, 255) {
+		label at (0, 0)
+		inPin connection_126
+		sequenceCall {
+			inPin connection_1
+		}
+	}
+	complexIdentifier DelayValue_instance_5 at (291, 441) size (3, 3) backgroundColor #ffffff {
+		label at (-80, 41)
+		methodCall SystemLib.Delay.DelayValue.compute {
+			argumentPin valCompute at (left, 1) connection_71 {
+				bendpoints (20, 0), (20, 320)
+			}
+			sequenceCall at (-70, -30) {
+				inPin connection_70
+			}
+		}
+		methodCall SystemLib.Delay.DelayValue.value {
+			returnPin at (right, 1) {
+				connection_35
+			}
+			sequenceCall at (0, 0) {
+				inPin
+			}
+		}
+	}
+	simpleIdentifier cP_Max at (291, 25) {
+		label at (0, -1)
+		outPin {
+			connection_40
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier cP_Min at (291, 65) {
+		label at (0, -1)
+		outPin {
+			connection_73
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier cI_Max at (311, 175) {
+		label at (0, -1)
+		outPin {
+			connection_104
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier cD_Max at (311, 335) {
+		label at (0, -1)
+		outPin {
+			connection_96
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier cD_Min at (311, 365) {
+		label at (0, -1)
+		outPin {
+			connection_94
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier cI_Min at (311, 215) {
+		label at (0, -1)
+		outPin {
+			connection_103
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier afterP at (621, 125) {
+		label at (0, -1)
+		inPin connection_58
+		outPin {
+			connection_135, connection_59
+		}
+		sequenceCall {
+			inPin connection_57
+		}
+	}
+	simpleIdentifier afterI at (621, 285) {
+		label at (0, -1)
+		inPin connection_121
+		outPin {
+			connection_122, connection_111
+		}
+		sequenceCall {
+			inPin connection_120
+		}
+	}
+	simpleIdentifier afterD at (621, 425) {
+		label at (0, -1)
+		inPin connection_55 {
+			bendpoints (20, 0)
+		}
+		outPin {
+			connection_131
+		}
+		sequenceCall {
+			inPin connection_54
+		}
+	}
+	simpleIdentifier Error at (191, 135) {
+		label at (0, -1)
+		inPin connection_64 {
+			bendpoints (20, 0)
+		}
+		outPin {
+			connection_65, connection_69, connection_78, connection_71
+		}
+		sequenceCall {
+			inPin connection_63
+		}
+	}
+	simpleIdentifier InpOsc at (71, 95) {
+		label at (0, -1)
+		inPin connection_61
+		outPin {
+			connection_62
+		}
+		sequenceCall {
+			inPin connection_60
+		}
+	}
+	methodArgumentIdentifier Regulator.dT_ at (171, 275) {
+		label at (0, -1)
+		outPin {
+			connection_124, connection_101
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	multiplication at (391, 266) {
+		inPin connection_124 {
+			bendpoints (30, 0), (30, -10)
+		}
+		inPin connection_80
+		outPin {
+			connection_82
+		}
+	}
+	maximum at (501, 266) {
+		inPin connection_103 {
+			bendpoints (150, 0)
+		}
+		inPin connection_117
+		outPin {
+			connection_105
+		}
+	}
+	division at (401, 466) {
+		inPin connection_132
+		inPin connection_101 {
+			bendpoints (30, 0), (30, 210)
+		}
+		outPin {
+			connection_102
+		}
+	}
+	minimum at (961, 246) {
+		inPin connection_125 {
+			bendpoints (20, 0)
+		}
+		inPin connection_129 {
+			bendpoints (150, 0), (150, 130)
+		}
+		outPin {
+			connection_126
+		}
+	}
+	maximum at (901, 246) {
+		inPin connection_128 {
+			bendpoints (80, 0), (80, 70)
+		}
+		inPin connection_127 {
+			bendpoints (70, 0), (70, 10)
+		}
+		outPin {
+			connection_125
+		}
+	}
+	simpleIdentifier cPID_Max at (761, 135) {
+		label at (0, -1)
+		outPin {
+			connection_129
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	simpleIdentifier cPID_Min at (761, 175) {
+		label at (0, -1)
+		outPin {
+			connection_128
+		}
+		sequenceCall {
+			inPin
+		}
+	}
+	return at (831, 55) {
+		label at (0, 0)
+		inPin connection_135 {
+			bendpoints (0, 120), (40, 120), (40, -70)
+		}
+		sequenceCall {
+			inPin connection_133
+		}
+	}
+}
