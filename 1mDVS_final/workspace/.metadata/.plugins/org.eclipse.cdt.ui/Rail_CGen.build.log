@@ -1,5 +1,0 @@
-02:23:44 **** Clean-only build of configuration Debug for project Rail_CGen ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-
-02:23:44 Build Finished. 0 errors, 0 warnings. (took 9ms)
-

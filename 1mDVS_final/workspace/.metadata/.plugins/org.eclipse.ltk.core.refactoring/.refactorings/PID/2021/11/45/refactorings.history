@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;PID/components&apos; to &apos;PID_Regulator&apos;" description="Rename resource &apos;components&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="components" name="PID_Regulator" stamp="1636122886486" updateReferences="true"/>
-</session>

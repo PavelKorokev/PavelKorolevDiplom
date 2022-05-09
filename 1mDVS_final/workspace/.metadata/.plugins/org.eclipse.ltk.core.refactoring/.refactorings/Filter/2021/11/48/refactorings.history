@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Filter/components/Filter.esdl&apos; to &apos;FilterBy.esdl&apos;" description="Rename resource &apos;Filter.esdl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="components/Filter.esdl" name="FilterBy.esdl" stamp="1637930783096" updateReferences="true"/>
-</session>

@@ -1,5 +1,0 @@
-17:35:21 **** Clean-only build of configuration Debug for project OperatorCheck_CGen ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-
-17:35:21 Build Finished. 0 errors, 0 warnings. (took 11ms)
-

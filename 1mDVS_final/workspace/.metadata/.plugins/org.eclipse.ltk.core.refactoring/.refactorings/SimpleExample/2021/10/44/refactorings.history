@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Move &apos;Lib&apos; to &apos;SimpleExample&apos;" description="Move &apos;Lib&apos; to &apos;SimpleExample&apos;" destination="/SimpleExample" element1="Math/Lib" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1635521789804" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;SimpleExample/Interface&apos; to &apos;IdleControl&apos;" description="Rename resource &apos;Interface&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Interface" name="IdleControl" stamp="1635523954417" updateReferences="true"/>
-</session>

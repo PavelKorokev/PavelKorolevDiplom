@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;TestPlatform/components/Interface.esdl&apos; to &apos;InpOut.esdl&apos;" description="Rename resource &apos;Interface.esdl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="components/Interface.esdl" name="InpOut.esdl" stamp="1649787696852" updateReferences="true"/>
-</session>

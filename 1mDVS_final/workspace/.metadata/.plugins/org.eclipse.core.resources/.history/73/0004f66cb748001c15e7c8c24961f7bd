@@ -1,9 +1,0 @@
-package components;
-
-class Component {
-	PID PID_instance;
-
-	@generated("blockdiagram", "6911a603")
-	public void calc() {
-	}
-}

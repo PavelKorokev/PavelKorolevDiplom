@@ -1,7 +1,0 @@
-package components;
-
-class Restriction {
-	@generated("blockdiagram", "f4f8867b")
-	public void calc() {
-	}
-}
